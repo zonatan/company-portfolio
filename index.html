@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova | Creative Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-circle"></div>
+        <div class="preloader-text">LOADING</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">NOVA</a>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <video autoplay muted loop class="hero-video">
+            <source src="images/hero-bg.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-aos="fade-up">CREATIVE <span>DESIGN</span> STUDIO</h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">We craft digital experiences that inspire and engage</p>
+                <a href="#portfolio" class="btn btn-primary" data-aos="fade-up" data-aos-delay="400">View Our Work</a>
+            </div>
+            <div class="scroll-down">
+                <span>Scroll Down</span>
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Us</h2>
+                <p class="section-subtitle">Who we are and what we do</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>We are a creative digital agency focused on innovative solutions</h3>
+                    <p>Founded in 2015, Nova has been delivering exceptional design and development services to clients worldwide. Our team of passionate creatives combines technical expertise with artistic vision to create memorable digital experiences.</p>
+                    <p>We believe in the power of design to transform businesses and create meaningful connections with audiences.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="150">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="45">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="12">0</div>
+                            <div class="stat-label">Awards Won</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="images/about-image.jpg" alt="About Us">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">What we offer to our clients</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>We create intuitive and beautiful user interfaces that enhance user experience and drive engagement.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom web development solutions tailored to your business needs with the latest technologies.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <p>Native and cross-platform mobile applications designed for performance and scalability.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Comprehensive digital marketing strategies to grow your online presence and reach your audience.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Portfolio</h2>
+                <p class="section-subtitle">Selected works we're proud of</p>
+            </div>
+            <div class="portfolio-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="https://infostride.com/wp-content/uploads/2024/01/How-Much-Does-eCommerce-Website-Development-Cost-1200x717.png" alt="Project 1">
+                        <div class="portfolio-overlay">
+                            <h3>E-commerce Website</h3>
+                            <p>Web Design</p>
+                            <a href="#" class="portfolio-view">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://www.businessofapps.com/wp-content/uploads/2021/06/fitness-app-design-3.png" alt="Project 2">
+                        <div class="portfolio-overlay">
+                            <h3>Fitness App</h3>
+                            <p>App Development</p>
+                            <a href="#" class="portfolio-view">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/2c9882161697123.63c95020a24f2.jpg" alt="Project 3">
+                        <div class="portfolio-overlay">
+                            <h3>Coffee Brand</h3>
+                            <p>Branding</p>
+                            <a href="#" class="portfolio-view">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://www.hubspot.com/hs-fs/hubfs/emailmarketing2_1-Nov-20-2024-06-32-20-2099-PM.webp?width=650&height=428&name=emailmarketing2_1-Nov-20-2024-06-32-20-2099-PM.webp" alt="Project 4">
+                        <div class="portfolio-overlay">
+                            <h3>Corporate Website</h3>
+                            <p>Web Design</p>
+                            <a href="#" class="portfolio-view">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://tint.creativemarket.com/1i83-lRu-eeKWMrXEMj3uDUHH-UM220O3pNeKEgXLSI/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzE5NTgvMTk1ODgvMTk1ODgzMDcvcHJvZHVjdC1pbWFnZV8yLW8uanBn?1680240845">
+                        <div class="portfolio-overlay">
+                            <h3>Laundry App</h3>
+                            <p>App Development</p>
+                            <a href="#" class="portfolio-view">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://savvycomsoftware.com/wp-content/uploads/2023/09/Best-E-Wallet-App-1.webp">
+                        <div class="portfolio-overlay">
+                            <h3>Wallet App</h3>
+                            <p>App Development</p>
+                            <a href="#" class="portfolio-view">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta" data-aos="fade-up">
+                <a href="#" class="btn btn-outline">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What our clients say about us</p>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"Working with Nova was an absolute pleasure. They understood our vision and delivered beyond our expectations. The website they created has significantly improved our online presence and customer engagement."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Client 1">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, TechSolutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"The mobile app developed by Nova has been a game-changer for our business. Their attention to detail and user experience focus resulted in an app that our customers love to use daily."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Client 2">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Founder, FitLife</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"Nova's branding services transformed our company image. They captured our essence perfectly and created a visual identity that resonates with our target audience."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/2787341/pexels-photo-2787341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Client 3">
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <p>Marketing Director, Brew & Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Address</h3>
+                            <p>123 Design Street, Creative City, 10100</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p>hello@novastudio.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">NOVA</a>
+                    <p>Creating digital experiences that inspire and engage.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">App Development</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Branding</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li><a href="mailto:hello@novastudio.com">hello@novastudio.com</a></li>
+                            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+                            <li>123 Design Street</li>
+                            <li>Creative City, 10100</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Nova Creative Studio. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+    <script src="js/scroll-effects.js"></script>
+</body>
+</html>

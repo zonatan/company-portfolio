@@ -1,0 +1,86 @@
+/* Animation Classes */
+[data-aos] {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+[data-aos="fade-up"] {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+[data-aos="fade-up"].aos-animate {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+[data-aos="fade-down"] {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+[data-aos="fade-down"].aos-animate {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+[data-aos="fade-right"] {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+[data-aos="fade-right"].aos-animate {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+[data-aos="fade-left"] {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+[data-aos="fade-left"].aos-animate {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+[data-aos="zoom-in"] {
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+[data-aos="zoom-in"].aos-animate {
+    transform: scale(1);
+    opacity: 1;
+}
+
+[data-aos="zoom-out"] {
+    transform: scale(1.2);
+    opacity: 0;
+}
+
+[data-aos="zoom-out"].aos-animate {
+    transform: scale(1);
+    opacity: 1;
+}
+
+[data-aos="flip-up"] {
+    transform: perspective(1000px) rotateX(45deg);
+    opacity: 0;
+    transform-origin: bottom;
+}
+
+[data-aos="flip-up"].aos-animate {
+    transform: perspective(1000px) rotateX(0);
+    opacity: 1;
+}
+
+[data-aos="flip-down"] {
+    transform: perspective(1000px) rotateX(-45deg);
+    opacity: 0;
+    transform-origin: top;
+}
+
+[data-aos="flip-down"].aos-animate {
+    transform: perspective(1000px) rotateX(0);
+    opacity: 1;
+}
